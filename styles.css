@@ -1,0 +1,156 @@
+body {
+    background-color: #eee;
+    scroll-behavior: smooth;
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    background-color: #eee;
+    top: 0;
+    font-size: 1rem;
+    height: auto;
+    width: 100%;
+}
+
+.logo {
+    width: 60vw;
+}
+
+#header-img {
+    width:100%;
+    height:100%;
+    height: 1.4em;
+    margin-right: 0;
+}
+
+#nav-bar {
+    font-weight: bold;
+    width: 40vw;
+    margin: 0.2em;
+    font-size: 1em;
+}
+
+nav > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 35vw;
+}
+
+li {
+    list-style: none;
+    margin: 1em;
+}
+
+.nav-link {
+    color:black;
+    text-decoration: none;
+}
+
+#started, #form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#email {
+    margin-bottom: 10px;
+    height: 1.75em;
+    width: 20.5em
+}
+
+#submit {
+    background-color: #ff6600;
+    border: none;
+    height: 1.75em;
+    width: 20.5em;
+    font-weight: bold;
+}
+
+#features {
+    padding: 1.5em;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    width: 100%
+}
+
+#how_it_works {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pricing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 10rem;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.level {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+  }
+
+.price {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.btn {
+    padding: 10px;
+    background-color: #ff6600;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    margin-top: 1.5em;
+  }
+
+footer {
+    text-align: end;
+}
+
+@media (max-width: 800px) {
+    #pricing {
+    flex-direction: column;
+  }
+  #header {
+    justify-content: space-evenly;
+  }
+}
